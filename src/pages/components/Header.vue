@@ -17,7 +17,7 @@ export default {
 }
 </script>
 <style lang="stylus" scoped>
-@import '~styles/varibles.styl'
+@import '~styles/varibles'
 .header
     display flex
     line-height .86rem
@@ -47,7 +47,6 @@ export default {
         text-align center
         .arrow-icon
             font-size .24rem
-    
 </style>
 
 
