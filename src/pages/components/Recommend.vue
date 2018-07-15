@@ -23,9 +23,9 @@ export default {
             list:[
                 {
                     id:'0001',
-                    imgUrl: 'http://img1.qunarzz.com/sight/p0/1706/6d/6d439eaa3424b483a3.img.png_200x200_7fdbc990.png',
-                    title: '魅力赣江水上乐园',
-                    desc: '魅力赣江天然浴场 江西唯一的人造冲浪浴场'
+                    imgUrl: 'http://img1.qunarzz.com/sight/p0/1610/83/83a873f755d64992a3.water.jpg_200x200_f7acbacd.jpg',
+                    title: '南昌万达主题乐园',
+                    desc: '万达斥巨资邀请著名主题乐园设计公司福瑞克(Forrec)担纲设计、倾力打造，首度实现世界大型主题乐园元素与中国传统文化的融合，多项设备全球专利、万达专属'
                 },
                 {
                     id:'0002',
@@ -35,33 +35,9 @@ export default {
                 },
                 {
                     id:'0003',
-                    imgUrl: 'http://img1.qunarzz.com/sight/p0/1706/6d/6d439eaa3424b483a3.img.png_200x200_7fdbc990.png',
-                    title: '魅力赣江水上乐园',
-                    desc: '魅力赣江天然浴场 江西唯一的人造冲浪浴场'
-                },
-                {
-                    id:'0004',
-                    imgUrl: 'http://img1.qunarzz.com/sight/p0/1706/6d/6d439eaa3424b483a3.img.png_200x200_7fdbc990.png',
-                    title: '魅力赣江水上乐园',
-                    desc: '魅力赣江天然浴场 江西唯一的人造冲浪浴场'
-                },
-                {
-                    id:'0005',
-                    imgUrl: 'http://img1.qunarzz.com/sight/p0/1706/6d/6d439eaa3424b483a3.img.png_200x200_7fdbc990.png',
-                    title: '魅力赣江水上乐园',
-                    desc: '魅力赣江天然浴场 江西唯一的人造冲浪浴场'
-                },
-                {
-                    id:'0006',
-                    imgUrl: 'http://img1.qunarzz.com/sight/p0/1706/6d/6d439eaa3424b483a3.img.png_200x200_7fdbc990.png',
-                    title: '魅力赣江水上乐园',
-                    desc: '魅力赣江天然浴场 江西唯一的人造冲浪浴场'
-                },
-                {
-                    id:'0007',
-                    imgUrl: 'http://img1.qunarzz.com/sight/p0/1706/6d/6d439eaa3424b483a3.img.png_200x200_7fdbc990.png',
-                    title: '魅力赣江水上乐园',
-                    desc: '魅力赣江天然浴场 江西唯一的人造冲浪浴场'
+                    imgUrl: 'http://img1.qunarzz.com/sight/p0/1611/13/13b01816e08573e6a3.water.jpg_200x200_3bdbfa41.jpg',
+                    title: '滕王阁游轮',
+                    desc: '听着邮轮上讲解员的娓娓道来，伴着优雅的古琴乐声，八一大桥、滕王阁、秋水广场、摩天轮尽收眼底，绚丽的光影投在江面上，构成一幅流动的画卷'
                 }
             ]
         }
