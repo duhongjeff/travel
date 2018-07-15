@@ -7,13 +7,16 @@
             <i class="iconfont search-icon">&#xe632;</i>输入城市/景点/游玩主题
         </div>
         <div class="header-right">
-            城市 <i class="iconfont arrow-icon">&#xe64a;</i>
+            {{city}} <i class="iconfont arrow-icon">&#xe64a;</i>
         </div>
     </div>
 </template>
 <script>
 export default {
     name: 'HomeHeader',
+    props: {
+        city: String
+    }
 }
 </script>
 <style lang="stylus" scoped>
