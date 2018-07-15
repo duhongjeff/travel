@@ -1,21 +1,14 @@
-p<template>
+<template>
     <ul class="alphabet">
-        <li class="item">A</li>
-        <li class="item">A</li>
-        <li class="item">A</li>
-        <li class="item">A</li>
-        <li class="item">A</li>
-        <li class="item">A</li>
-        <li class="item">A</li>
-        <li class="item">A</li>
-        <li class="item">A</li>
-        <li class="item">A</li>
-        <li class="item">A</li>
+        <li class="item" v-for="(item,key) of cities" :key="key">{{key}}</li>
     </ul>
 </template>
 <script>
 export default {
-    name: 'CityAlphabet'
+    name: 'CityAlphabet',
+    props: {
+        cities: Object
+    }
 }
 </script>
 <style lang="stylus" scoped>
@@ -32,7 +25,7 @@ export default {
     justify-content center
     align-items center
     .item
-        height .44rem
+        height .34rem
         color $bgColor
 </style>
 
