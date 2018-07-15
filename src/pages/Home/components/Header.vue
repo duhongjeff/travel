@@ -25,7 +25,7 @@ export default {
 @import '~styles/varibles'
 .header
     display flex
-    line-height .86rem
+    line-height $headerHeight
     background #00bcd4
     color #fff
     .header-left
