@@ -13,7 +13,6 @@ export default {
 }
 </script>
 <style lang="stylus" scoped>
-@import '~styles/mixin'
 @import '~styles/varibles'
 .header
     position relative

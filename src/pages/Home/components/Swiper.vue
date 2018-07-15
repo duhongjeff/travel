@@ -26,11 +26,10 @@ export default {
     data () {
         return {
             swiperOption: {
-                pagination: {
-                    el: '.swiper-pagination'
-                },
+                pagination : '.swiper-pagination',
+                autoplay : 2000,
                 loop: true,
-                autoplay: true
+                // autoplay: true
             }
         }
     },
