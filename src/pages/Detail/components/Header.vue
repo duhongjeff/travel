@@ -45,7 +45,6 @@ export default {
             }else {
                 this.showAbs = true
             }
-            console.log(top)
         }
     }
 }
@@ -70,6 +69,7 @@ export default {
     top 0
     left 0
     right 0
+    z-index 10
     height $headerHeight
     line-height $headerHeight
     text-align center
