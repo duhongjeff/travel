@@ -12,7 +12,6 @@
     </div>
 </template>
 <script>
-
 export default {
     name: 'DetailHeader',
     data () {
@@ -27,20 +26,19 @@ export default {
         window.addEventListener('scroll', this.handleScroll)
     },
     deactivated () {
-        window.removeEventListener('scroll', this.handleScroll)
-    },
-    components: {
-
+        window.removeEventListener('scroll')
     },
     methods: {
         handleScroll () {
             let top = document.documentElement.scrollTop || document.body.scrollTop;
+            console.log(top)
             if (top > 60) {
                 let opacity = top /140
                 opacity = opacity > 1 ? 1: opacity
                 this.opacityStyle = {
                     opacity
                 }
+                
                 this.showAbs = false
             }else {
                 this.showAbs = true
