@@ -15,6 +15,11 @@
 
 ## 启动
 
+扫码体验
+
+![](https://thumbnail0.baidupcs.com/thumbnail/7284ac5eedf9f0a675540972b3fd33c0?fid=3893228660-250528-835659898676622&time=1531724400&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-tUAB5lqjMcuUq%2BxgQb6%2FWdT7q%2FI%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=4560571289543656745&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video)
+
+
 
 [在线浏览：https://hackerhanxi.gitee.io/qunar_dist/#/](https://hackerhanxi.gitee.io/qunar_dist/#/)
 
