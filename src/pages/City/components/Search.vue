@@ -1,7 +1,7 @@
 <template>
 <div>
     <div class="search">
-        <input class="search-input" type="search" autofocus v-model="keyword" placeholder="输入城市名或拼音">
+        <input class="search-input" type="search" v-model="keyword" placeholder="输入城市名或拼音">
     </div>
     <div class="search-content" ref="search" v-show="keyword">
         <ul>
@@ -61,7 +61,9 @@ export default {
         }
     },
     mounted () {
-        this.scroll = new Bscroll(this.$refs.search)
+        this.scroll = new Bscroll(this.$refs.search,{
+            click: true
+        })
     }
 }
 </script>
