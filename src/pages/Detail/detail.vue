@@ -1,9 +1,9 @@
 <template>
 <div>
-    <detail-banner></detail-banner>
+    <detail-banner :sightName="sightName" :gallaryImgs="gallaryImgs" :bannerImg="bannerImg"></detail-banner>
     <detail-header></detail-header>
     <div class="content">
-        <detail-list :list="list"></detail-list>
+        <detail-list :categoryList="categoryList"></detail-list>
     </div>
 </div>
 </template>
@@ -11,6 +11,7 @@
 import DetailBanner from './components/Banner'
 import DetailHeader from './components/Header'
 import DetailList from './components/List'
+import axios from 'axios'
 export default {
     name: 'Detail',
     components: {
@@ -20,31 +21,32 @@ export default {
     },
     data () {
         return {
-            list: [
-                {
-                    title: '成人票',
-                    children: [{
-                        title: '成人三馆联票',
-                        children: [{
-                        title: '成人三馆联票'
-                    },{
-                        title: '成人五馆联票'
-                    },]
-                    },{
-                        title: '成人五馆联票'
-                    },]
-                },
-                {
-                    title: '儿童票'
-                },
-                {
-                    title: '学生票'
-                },
-                {
-                    title: '特惠票'
-                }
-            ]
+            sightName: '',
+            bannerImg: '',
+            gallaryImgs: [],
+            categoryList: [],
         }
+    },
+    methods: {
+        getDetailInfo () {
+            axios.get('/api/detail.json',{
+                params: {
+                    id: this.$route.params.id
+                }
+            }).then(this.handleGetDataSucc)
+        },
+        handleGetDataSucc (res) {
+            if (res.data.ret && res.data.data) {
+                let result = res.data.data
+                this.sightName = result.sightName
+                this.bannerImg = result.bannerImg
+                this.gallaryImgs = result.gallaryImgs
+                this.categoryList = result.categoryList
+            }
+        }
+    },
+    mounted () {
+        this.getDetailInfo()
     }
 }
 </script>
@@ -52,5 +54,3 @@ export default {
 .content
     height 50rem
 </style>
-
-
