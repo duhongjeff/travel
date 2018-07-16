@@ -1,21 +1,32 @@
 # travel
 
-> vue2.0 仿去哪儿实战
+> vue2.5 仿去哪儿app项目实战
 
-## Build Setup
+使用的技术：
+ - vuex  数据状态管理
+ - vue-router  前端路由
+ - vue-awesome-swiper 制作轮播图
+ - axios  提供数据请求
+ - better-scroll  由黄轶老师编写的scroll插件
+ - stylus  高效的css预编译语法
+ - babel-ployfill  解决移动端部分机型白屏问题
+ - fastclick 降低移动端部分机型点击延迟
+ - webpack 项目打包
 
-``` bash
-# install dependencies
+## 启动
+
+
+[在线浏览：https://hackerhanxi.gitee.io/qunar_dist/#/](https://hackerhanxi.gitee.io/qunar_dist/#/)
+
+安装项目依赖
 npm install
 
-# serve with hot reload at localhost:8080
+启动本地服务
 npm run dev
 
-# build for production with minification
+打包编译
 npm run build
 
-# build for production and view the bundle analyzer report
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
