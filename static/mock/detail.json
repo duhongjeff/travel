@@ -4,7 +4,8 @@
     "sightName": "南昌万达主题乐园",
     "bannerImg": "http://img1.qunarzz.com/sight/p0/1610/83/83a873f755d64992a3.water.jpg_600x330_9d4add39.jpg",
     "gallaryImgs": ["http://img1.qunarzz.com/sight/p0/1610/8a/8ad4be817b77900a3.water.jpg_r_800x800_d0bec6ba.jpg", "http://img1.qunarzz.com/sight/p0/1610/38/38f40e60221bed6da3.water.jpg_r_800x800_f010c716.jpg","http://img1.qunarzz.com/sight/p0/1610/8e/8e2920d905f457dca3.water.jpg_r_800x800_1365d61b.jpg"],
-    "categoryList": [{
+    "categoryList": [
+      {
         "title": "全天票/暑期高峰",
         "children": [
           {
